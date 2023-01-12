@@ -1,0 +1,78 @@
+@import "../../styles/base";
+
+.nav {
+	padding: 20px 0;
+	background-color: $color-black;
+	border-bottom: 1px solid $color-black-border;
+	color: $color-white;
+	letter-spacing: normal;
+
+	&-row {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		column-gap: 30px;
+		row-gap: 20px;
+		flex-wrap: wrap;
+	}
+}
+
+.logo {
+	margin-right: auto;
+	color: $color-white;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+
+	& strong {
+		font-weight: 700;
+	}
+}
+
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+
+
+	&__link {
+		color: $color-white;
+		transition: opacity 0.2s ease-in;
+
+		&:hover {
+			opacity: 0.8;
+		}
+
+		&--active {
+			position: relative;
+
+			&::before {
+				content: '';
+
+				position: absolute;
+				left: 0;
+				top: 100%;
+
+				display: block;
+				height: 2px;
+				width: 100%;
+				background-color: $color-main;
+			}
+		}
+	}
+}
+
+@media (max-width: 620px) {
+
+	.nav-row {
+		justify-content: space-between;
+	}
+
+	.dark-mode-btn {
+		order: 0;
+	}
+}
