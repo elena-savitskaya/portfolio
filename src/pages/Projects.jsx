@@ -18,7 +18,6 @@ const Projects = () => {
                             />
                         )
                     })}
-
                 </ul>
             </div >
         </main >

@@ -12,7 +12,6 @@ const Contacts = () => {
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Call me</h2>
-                        <p><a href="https://t.me/helena_savitskaya">Telegram</a></p>
                         <p><a href="tel:+380504776347">+38(050)477-63-47</a></p>
                     </li>
                     <li className="content-list__item">

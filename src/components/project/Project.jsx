@@ -4,7 +4,7 @@ const Project = ({ title, skills, link, img }) => {
     return (
         <li className="project">
             <a className="project__link"
-                href={link} target="_blank">
+                href={link} target="_blank" rel="noreferrer">
                 <img
                     src={img}
                     alt={title}
@@ -14,6 +14,6 @@ const Project = ({ title, skills, link, img }) => {
             <p className="project__text">{skills}</p>
         </li>
     );
-}; 
- 
+};
+
 export { Project };
