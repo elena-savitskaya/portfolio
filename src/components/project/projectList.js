@@ -7,6 +7,9 @@ import project06 from "../../img/projects/06.jpg";
 import project07 from "../../img/projects/07.jpg";
 import project08 from "../../img/projects/08.jpg";
 import project09 from "../../img/projects/09.jpg";
+import project10 from "../../img/projects/10.jpg";
+import project11 from "../../img/projects/11.jpg";
+import project12 from "../../img/projects/12.jpg";
 
 const projectList = [
     {
@@ -40,15 +43,27 @@ const projectList = [
         gitHubLink: 'https://elena-savitskaya.github.io/mui_progect_shop/',
     },
     {
-        title: 'Maket Arka',
-        skills: 'HTML, CSS, SASS/SCSS',
-        img: project06,
-        gitHubLink: 'https://elena-savitskaya.github.io/maket_arka_sass_using/',
+        title: 'Bank app',
+        skills: 'ReactJS, JavaScript',
+        img: project07,
+        gitHubLink: 'https://elena-savitskaya.github.io/bank_app',
+    },
+    {
+        title: 'Slider',
+        skills: 'HTML, CSS, JavaScript',
+        img: project11,
+        gitHubLink: 'https://elena-savitskaya.github.io/js_project_slider/',
+    },
+    {
+        title: 'Cards',
+        skills: 'HTML, CSS, JavaScript',
+        img: project12,
+        gitHubLink: 'https://elena-savitskaya.github.io/js_project_cards/',
     },
     {
         title: 'Maket IndeVets',
         skills: 'HTML, CSS, Flexbox layout',
-        img: project07,
+        img: project10,
         gitHubLink: 'https://elena-savitskaya.github.io/homework_first_maket_IndeVets/',
     },
     {
@@ -62,6 +77,12 @@ const projectList = [
         skills: 'HTML, CSS, Grid layout',
         img: project09,
         gitHubLink: 'https://elena-savitskaya.github.io/homework_maket_grid/',
+    },
+    {
+        title: 'Maket Arka',
+        skills: 'HTML, CSS, SASS/SCSS',
+        img: project06,
+        gitHubLink: 'https://elena-savitskaya.github.io/maket_arka_sass_using/',
     },
 ]
 
