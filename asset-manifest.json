@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6463483.css",
-    "main.js": "/portfolio/static/js/main.20982d39.js",
+    "main.css": "/portfolio/static/css/main.911243a2.css",
+    "main.js": "/portfolio/static/js/main.ab871ddd.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/12.jpg": "/portfolio/static/media/12.878d70d90d57ba69a1e7.jpg",
+    "static/media/11.jpg": "/portfolio/static/media/11.ffd6898c34d272a9ca5a.jpg",
     "static/media/01.jpg": "/portfolio/static/media/01.fbeec4aa461d725b2e4a.jpg",
     "static/media/05.jpg": "/portfolio/static/media/05.4ff78f66de45b1cb2f09.jpg",
     "static/media/04.jpg": "/portfolio/static/media/04.299395cd8452cb4d052b.jpg",
-    "static/media/background.jpg": "/portfolio/static/media/background.abeab4a4ef9fe98e3d49.jpg",
+    "static/media/10.jpg": "/portfolio/static/media/10.f657440e40b3198e9b8e.jpg",
     "static/media/03.jpg": "/portfolio/static/media/03.13c0ff7e0d0478e4aec8.jpg",
     "static/media/02.jpg": "/portfolio/static/media/02.4cb1ff950e315d896f84.jpg",
     "static/media/08.jpg": "/portfolio/static/media/08.984a3bcb443065881491.jpg",
     "static/media/09.jpg": "/portfolio/static/media/09.b1e280a7c704d6d0826c.jpg",
     "static/media/06.jpg": "/portfolio/static/media/06.c8a31a8fb6cd2e825574.jpg",
-    "static/media/07.jpg": "/portfolio/static/media/07.09aeec314d7714c086f8.jpg",
+    "static/media/07.jpg": "/portfolio/static/media/07.5b5be4d588e9939159de.jpg",
     "static/media/sun.svg": "/portfolio/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
     "static/media/moon.svg": "/portfolio/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
     "static/media/gitHub.svg": "/portfolio/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/portfolio/index.html",
-    "main.c6463483.css.map": "/portfolio/static/css/main.c6463483.css.map",
-    "main.20982d39.js.map": "/portfolio/static/js/main.20982d39.js.map",
+    "main.911243a2.css.map": "/portfolio/static/css/main.911243a2.css.map",
+    "main.ab871ddd.js.map": "/portfolio/static/js/main.ab871ddd.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6463483.css",
-    "static/js/main.20982d39.js"
+    "static/css/main.911243a2.css",
+    "static/js/main.ab871ddd.js"
   ]
 }
