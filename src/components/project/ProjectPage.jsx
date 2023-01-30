@@ -2,6 +2,7 @@ import "./_project.scss"
 import { NavLink, useParams } from "react-router-dom";
 import { BtnGitHub } from "../btnGitHub/BtnGitHub";
 import { projectList } from "./projectList"
+import { FaArrowLeft } from "react-icons/fa"
 
 const ProjectPage = () => {
     const { id } = useParams();
@@ -10,7 +11,7 @@ const ProjectPage = () => {
     return (
         <main className="section">
             <div className="container">
-                <NavLink to="/portfolio/projects" className="button__back">Go back</NavLink>
+                <NavLink to="/portfolio/projects" className="button__back"><FaArrowLeft></FaArrowLeft></NavLink>
                 <div className="project-details">
                     <h1 className="title-1">{project.title}</h1>
                     <div className="project-details__cover">

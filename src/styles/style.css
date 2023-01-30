@@ -660,8 +660,7 @@ body {
 }
 
 .button__back {
-  height: 48px;
-  padding: 12px 20px;
+  padding: 5px 15px 2px 5px;
   border-radius: 5px;
   border: 1px solid #6ca5f6;
   color: #6ca5f6;
