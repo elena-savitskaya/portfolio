@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
 .dark {
   /* Dark mode */
-  background-color: #464646;
+  background-color: #686767;
   color: #fff;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
@@ -147,7 +147,7 @@ legend {
 /* Colors */
 .dark {
   /* Dark mode */
-  background-color: #464646;
+  background-color: #686767;
   color: #fff;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
@@ -240,7 +240,7 @@ body {
 /* Colors */
 .dark {
   /* Dark mode */
-  background-color: #464646;
+  background-color: #686767;
   color: #fff;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
@@ -295,7 +295,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #6ca5f6;
-  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  background: linear-gradient(90deg, rgb(119, 57, 160) 0%, rgb(237, 88, 88) 50%, rgb(252, 176, 69) 100%);
   color: #fff;
   text-align: center;
 }
@@ -358,7 +358,7 @@ body {
 /* Colors */
 .dark {
   /* Dark mode */
-  background-color: #464646;
+  background-color: #686767;
   color: #fff;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
@@ -576,7 +576,7 @@ body {
 /* Colors */
 .dark {
   /* Dark mode */
-  background-color: #464646;
+  background-color: #686767;
   color: #fff;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
@@ -659,8 +659,21 @@ body {
   color: #3e3d3d;
 }
 
+.button__back {
+  height: 48px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #6ca5f6;
+  color: #6ca5f6;
+  transition: opacity 0.2s ease-in;
+}
+
+.button__back:hover {
+  opacity: 0.8;
+}
+
 .project-details {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 865px;
   display: flex;
   flex-direction: column;

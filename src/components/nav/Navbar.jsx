@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { ButtonDarkMode } from '../buttonDarkMode/ButtonDarkMode';
 import gsap from "gsap";
 
-var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
+var tl = gsap.timeline({ defaults: { duration: 0.8, ease: 'expo.inOut' } });
 
 const openHandler = () => {
     if (tl.reversed()) {

@@ -38,8 +38,23 @@
 	}
 }
 
+.button__back {
+	
+	height: 48px;
+	padding: 12px 20px;
+
+	border-radius: 5px;
+	border: 1px solid $color-main;
+	color: $color-main;
+	transition: opacity 0.2s ease-in;
+}
+
+.button__back:hover {
+	opacity: 0.8;
+}
+
 .project-details {
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 865px;
 	display: flex;
 	flex-direction: column;

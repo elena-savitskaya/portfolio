@@ -3,7 +3,7 @@
 /* Colors */
 	$color-blackpure: #000;
 	$color-black: #3e3d3d;
-	$color-dark: #c0d2ec;
+	$color-dark: #686767;
 	$color-black-border: #26292d;
 	$color-white: #fff;
 	$color-page-background: #fff;
@@ -11,7 +11,7 @@
 
 .dark {
 	/* Dark mode */
-	background-color: #464646;
+	background-color: $color-dark;
 	color: $color-white;
 	box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
