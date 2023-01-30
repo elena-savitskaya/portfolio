@@ -294,7 +294,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c0d2ec;
+  background-color: #6ca5f6;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
   color: #fff;
   text-align: center;
 }
