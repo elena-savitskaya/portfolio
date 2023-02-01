@@ -1,3 +1,5 @@
+import { Cert } from "../components/certificates/Cert";
+import { Connect } from "../components/connect/Connect";
 import { Header } from "../components/header/Header";
 
 const Home = () => {
@@ -19,6 +21,8 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
+                <Connect />
+                <Cert />
             </main>
         </>
     );
