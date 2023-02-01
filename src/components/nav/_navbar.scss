@@ -52,10 +52,15 @@
 }
 
 .open{
+	padding-right: 40px;
 	display: none;
 	cursor: pointer;
 	width: 30px;
 	height: 20px;
+
+	&:hover {
+		opacity: 0.8;
+	}
 }
 
 .bars{
@@ -84,6 +89,7 @@
 .burger {
 	position: absolute;
 	top: 0;
+	right: 0;
 	width: 100%;
 	height: 0px;
 	background: $color-black;
