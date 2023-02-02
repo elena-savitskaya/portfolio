@@ -1,7 +1,7 @@
 import React from 'react'
 import "./_navbar.scss"
 import { NavLink } from 'react-router-dom';
-import { ButtonDarkMode } from '../buttonDarkMode/ButtonDarkMode';
+import { BtnDarkMode } from '../btnDarkMode/BtnDarkMode';
 import gsap from "gsap";
 
 var tl = gsap.timeline({ defaults: { duration: 0.8, ease: 'expo.inOut' } });
@@ -42,7 +42,7 @@ function Navbar() {
                             <NavLink to="/portfolio/contacts" className="nav-list__link">Contacts</NavLink>
                         </li>
                     </ul>
-                    <ButtonDarkMode />
+                    <BtnDarkMode />
                     <div className="open"
                         onClick={() => openHandler()} >
                         <div className="bars"></div>

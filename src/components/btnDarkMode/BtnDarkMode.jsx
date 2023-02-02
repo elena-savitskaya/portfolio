@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { useLocalStorage } from "../../utils/useLocalStorage";
 import sun from "../../img/icons/sun.svg";
 import moon from "../../img/icons/moon.svg";
-import "./_buttonDarkMode.scss"
+import "./_btnDarkMode.scss"
 import detectDarkMode from "../../utils/detectDarkMode";
 
-const ButtonDarkMode = () => {
+const BtnDarkMode = () => {
     // состояние useState меняем на Localstorage
     // const [darkMode, SetDarkMode] = useState('light');
 
@@ -40,4 +40,4 @@ const ButtonDarkMode = () => {
     );
 }
 
-export { ButtonDarkMode };
+export { BtnDarkMode };

@@ -10,6 +10,9 @@ import project09 from "../../img/projects/09.jpg";
 import project10 from "../../img/projects/10.jpg";
 import project11 from "../../img/projects/11.jpg";
 import project12 from "../../img/projects/12.jpg";
+import project13 from "../../img/projects/13.png";
+import project14 from "../../img/projects/14.png";
+import project15 from "../../img/projects/15.png";
 
 const projectList = [
     {
@@ -83,6 +86,24 @@ const projectList = [
         skills: 'HTML, CSS, SASS/SCSS',
         img: project06,
         gitHubLink: 'https://elena-savitskaya.github.io/maket_arka_sass_using/',
+    },
+    {
+        title: 'Drag and drop',
+        skills: 'HTML, CSS, JavaScript',
+        img: project13,
+        gitHubLink: 'https://elena-savitskaya.github.io/js_project_drag-drop/',
+    },
+    {
+        title: 'Game',
+        skills: 'HTML, CSS, JavaScript',
+        img: project14,
+        gitHubLink: 'https://elena-savitskaya.github.io/js_project_game/',
+    },
+    {
+        title: 'Animate Board',
+        skills: 'HTML, CSS, JavaScript',
+        img: project15,
+        gitHubLink: 'https://elena-savitskaya.github.io/js_project_animate_board/',
     },
 ]
 
