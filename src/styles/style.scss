@@ -56,14 +56,14 @@
 	align-items: center;
 	row-gap: 40px;
 	text-align: center;
-
-	& a {
-		color: $color-main;
-	}
 	
 	&__item {
 		font-size: 18px;
 		line-height: 1.5;
+
+		 a.contact {
+			color: $colot-title;
+		}
 	}
 	
 	&__item p + p {
