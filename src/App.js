@@ -7,6 +7,7 @@ import { Projects } from "./pages/Projects";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./utils/scrollToTop";
 import { ProjectPage } from "./components/project/ProjectPage";
+import './styles/style.css';
 
 function App() {
   return (

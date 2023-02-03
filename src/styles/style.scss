@@ -6,7 +6,7 @@
 @import "../components/project/project";
 @import "../components/btnDarkMode/btnDarkMode";
 @import "../components//btnGitHub/btnGitHub";
-
+@import "../components/modal/modal";
 /* Projects  */
 
 .projects {
@@ -61,8 +61,8 @@
 		font-size: 18px;
 		line-height: 1.5;
 
-		 a.contact {
-			color: $colot-title;
+		 & p a.contact {
+			color: $color-title;
 		}
 	}
 	

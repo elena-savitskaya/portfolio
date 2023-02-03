@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { Cert } from "../components/certificates/Cert";
 import { Connect } from "../components/connect/Connect";
 import { Header } from "../components/header/Header";
+import { ModalContent } from "../components/modal/ModalContent";
 
 const Home = () => {
+    const [active, setActive] = useState(false);
 
     return (
         <>
@@ -21,8 +24,9 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
-                <Connect />
+                <Connect active={active} setActive={setActive} />
                 <Cert />
+                <ModalContent active={active} setActive={setActive} />
             </main>
         </>
     );
