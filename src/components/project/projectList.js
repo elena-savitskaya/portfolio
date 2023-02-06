@@ -13,6 +13,7 @@ import project12 from "../../img/projects/12.jpg";
 import project13 from "../../img/projects/13.png";
 import project14 from "../../img/projects/14.png";
 import project15 from "../../img/projects/15.png";
+import project16 from "../../img/projects/16.png";
 
 const projectList = [
     {
@@ -62,6 +63,12 @@ const projectList = [
         skills: 'HTML, CSS, JavaScript',
         img: project12,
         gitHubLink: 'https://elena-savitskaya.github.io/js_project_cards/',
+    },
+    {
+        title: 'Weather app',
+        skills: 'HTML, CSS, JavaScript, ReactJS',
+        img: project16,
+        gitHubLink: 'https://elena-savitskaya.github.io/weather_app/',
     },
     {
         title: 'Maket IndeVets',

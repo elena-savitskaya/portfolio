@@ -11,7 +11,7 @@ const ProjectPage = () => {
     return (
         <main className="section">
             <div className="container">
-                <NavLink to="/portfolio/projects" className="button__back"><FaArrowLeft></FaArrowLeft></NavLink>
+                <NavLink to="/portfolio/projects" className="button__back"><FaArrowLeft></FaArrowLeft>Go back</NavLink>
                 <div className="project-details">
                     <h1 className="title-1">{project.title}</h1>
                     <div className="project-details__cover">
