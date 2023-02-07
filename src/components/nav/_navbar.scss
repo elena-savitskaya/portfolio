@@ -40,14 +40,20 @@
 
 
 	&__link {
-		border-bottom: 2px solid transparent;
-    	transition: 0.5s ease;
 		color: $color-white;
 
-		&:hover {
-			opacity: 0.8;
-			border-bottom: 2px solid $color-main;
-		}
+		& span:after {
+			content: '';
+			width: 0;
+			height: 1px;
+			background: $color-main;
+			display: block;
+			transition: .7s width ease;
+		  }
+
+		&:hover span:after {
+			width: 100%;
+		  }
 	}
 }
 

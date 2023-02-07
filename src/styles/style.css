@@ -425,13 +425,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .nav-list__link {
-  border-bottom: 2px solid transparent;
-  transition: 0.5s ease;
   color: #fff;
 }
-.nav-list__link:hover {
-  opacity: 0.8;
-  border-bottom: 2px solid #ffef72;
+.nav-list__link span:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #ffef72;
+  display: block;
+  transition: 0.7s width ease;
+}
+.nav-list__link:hover span:after {
+  width: 100%;
 }
 
 .open {

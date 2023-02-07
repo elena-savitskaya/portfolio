@@ -33,13 +33,13 @@ function Navbar() {
 
                     <ul className="nav-list">
                         <li className="nav-list__item">
-                            <NavLink to="/portfolio" className="nav-list__link">Home</NavLink>
+                            <NavLink to="/portfolio" className="nav-list__link"><span>Home</span></NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/portfolio/projects" className="nav-list__link">Projects</NavLink>
+                            <NavLink to="/portfolio/projects" className="nav-list__link"><span>Projects</span></NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/portfolio/contacts" className="nav-list__link">Contacts</NavLink>
+                            <NavLink to="/portfolio/contacts" className="nav-list__link"><span>Contacts</span></NavLink>
                         </li>
                     </ul>
                     <BtnDarkMode />
