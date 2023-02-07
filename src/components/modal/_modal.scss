@@ -41,5 +41,9 @@
 	& a {
 		font-size: 35px;
 		padding: 20px;
+
+		& svg:hover {
+			opacity: 0.5;
+		}
 	}
 }

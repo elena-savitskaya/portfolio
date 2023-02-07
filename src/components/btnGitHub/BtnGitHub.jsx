@@ -3,7 +3,7 @@ import "./_btnGitHub.scss"
 
 const BtnGitHub = ({ link }) => {
 	return (
-		<a href={link} target="_blank" rel="noreferrer" className="btn-outline">
+		<a href={link} target="_blank" rel="noreferrer" className="btn-outline btn__hover">
 			<img src={gitHubIcon} alt="img" />
 			This project on GitHub
 		</a>

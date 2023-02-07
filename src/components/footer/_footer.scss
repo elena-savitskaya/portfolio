@@ -18,6 +18,15 @@
 	display: flex;
 	column-gap: 30px;
 	align-items: center;
+
+	&__item a img {
+		transition: 1s;
+
+		&:hover{
+			transform: scale(1.2);
+			opacity: 0.5;
+		}
+	}
 }
 
 .copyright {

@@ -7,6 +7,7 @@
 @import "../components/btnDarkMode/btnDarkMode";
 @import "../components//btnGitHub/btnGitHub";
 @import "../components/modal/modal";
+
 /* Projects  */
 
 .projects {
@@ -60,10 +61,6 @@
 	&__item {
 		font-size: 18px;
 		line-height: 1.5;
-
-		 & p a.contact {
-			color: $color-title;
-		}
 	}
 	
 	&__item p + p {
@@ -105,3 +102,75 @@
 		}
 	}
 }
+
+a.contact {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover{
+		opacity: 0.5;
+	}
+}
+
+// Btn
+
+.btn {
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	height: 48px;
+	padding: 12px 28px;
+	border-radius: 5px;
+	color: $color-black;
+	letter-spacing: 0.15px;
+	font-size: 16px;
+	font-weight: 700;
+	background: $color-main;
+	text-transform: uppercase;
+	color: $color-black;
+	box-shadow: 0px 8px 20px rgba(255, 184, 0, 0.5);
+	border: 0;
+	cursor: pointer;
+  }
+  
+.btn__hover {
+	position: relative;
+	overflow: hidden;
+	transition: 0.7s all ease;
+}
+
+.btn__hover:before {
+	content: '';
+	height: 106%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 0;
+	background: rgba(237, 235, 232, 0.5);
+	transform: translateX(100%);
+	animation: 0.7s btn ease;
+  }
+  
+  .btn__hover:not(.target__number):hover:before {
+	animation: 0.7s btn_hover ease;
+	transform: translateX(0);
+  }
+
+  @keyframes btn_hover {
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+  }
+  
+  @keyframes btn__hover {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(100%);
+	}
+  }
+	

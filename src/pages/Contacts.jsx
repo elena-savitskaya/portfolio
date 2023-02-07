@@ -12,11 +12,11 @@ const Contacts = () => {
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Call me</h2>
-                        <p><a href="tel:+380504776347" className="contact">+38(050)477-63-47</a></p>
+                        <a href="tel:+380504776347" className="contact">+38(050)477-63-47</a>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:helena0518savitskaya@gmail.com" className="contact">helena0518savitskaya@gmail.com</a></p>
+                        <a href="mailto:helena0518savitskaya@gmail.com" className="contact">helena0518savitskaya@gmail.com</a>
                     </li>
                 </ul>
             </div>
