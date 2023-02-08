@@ -67,8 +67,7 @@
 }
 
 .carousel .control-dots li.dot {
-	width: 10px;
-	height: 10px;
+	display: none;
 }
 
 @media (max-width: 620px) {
