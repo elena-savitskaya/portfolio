@@ -8,9 +8,9 @@ const Project = ({ title, img, index }) => {
 				<div className='project__image'>
 					<img src={img} alt={title} className="image" />
 				</div>
-				<h3 className="project__title">{title}</h3>
+				<h3 className="project__title"><span>{title}</span></h3>
 			</li>
-		</NavLink>
+		</NavLink >
 	);
 };
 

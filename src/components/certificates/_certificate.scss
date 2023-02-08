@@ -65,17 +65,9 @@
 		  
 	}
 }
-
-.certificate:hover .certificate__link img {
-	transform: translateY(-10px);
-  }
-  
+ 
   .certificate:hover .certificate__title span:after {
 	width: 100%;
-  }
-
-  .certificate__link img {
-	transition: .5s transform ease;
   }
 
 @media (max-width: 620px) {
