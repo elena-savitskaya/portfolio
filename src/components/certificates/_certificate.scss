@@ -18,8 +18,8 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
-		gap: 10px;
 		flex-wrap: wrap;
+		background-color: $color-white;
 	}
 }
 
@@ -29,9 +29,6 @@
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: column;
-	gap: 10px;
-	background-color: $color-white;
-
 
 	&__link {
 		display: block;
@@ -72,7 +69,6 @@
 .carousel .control-dots li.dot {
 	width: 10px;
 	height: 10px;
-	background: $color-title;
 }
 
 @media (max-width: 620px) {
