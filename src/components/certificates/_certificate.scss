@@ -36,7 +36,6 @@
 	&__link {
 		display: block;
 		width: 100%;
-		overflow: hidden;
 
 			& .certificate__img {
 				object-fit: cover;
@@ -66,9 +65,15 @@
 	}
 }
  
-  .certificate:hover .certificate__title span:after {
+.certificate:hover .certificate__title span:after {
 	width: 100%;
-  }
+}
+
+.carousel .control-dots li.dot {
+	width: 10px;
+	height: 10px;
+	background: $color-title;
+}
 
 @media (max-width: 620px) {
 
