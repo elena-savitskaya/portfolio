@@ -295,7 +295,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(18, 73, 199, 0.5), rgba(255, 255, 190, 0.3));
+  background-image: linear-gradient(rgba(18, 73, 199, 0.5), rgba(255, 255, 190, 0.3)), url(../../img/backgroundes/background1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -474,6 +474,7 @@ body {
 }
 
 .burger {
+  z-index: 9999;
   position: absolute;
   top: 0;
   right: 0;
@@ -640,6 +641,17 @@ body {
   line-height: 1.3;
   color: #3e3d3d;
 }
+.project__title span {
+  display: inline-block;
+}
+.project__title span:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #3e3d3d;
+  display: block;
+  transition: 0.5s width ease;
+}
 .project__text {
   padding: 5px 15px 20px;
   font-weight: 300;
@@ -693,6 +705,18 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.3;
+}
+
+.project:hover .project__image img {
+  transform: translateY(-10px);
+}
+
+.project__image img {
+  transition: 0.5s transform ease;
+}
+
+.project:hover .project__title span:after {
+  width: 100%;
 }
 
 @media (max-width: 620px) {
@@ -958,23 +982,12 @@ a.contact:hover {
   top: 0;
   background: rgba(237, 235, 232, 0.5);
   transform: translateX(100%);
-  -webkit-animation: 0.7s btn ease;
-          animation: 0.7s btn ease;
+  animation: 0.7s btn ease;
 }
 
 .btn__hover:not(.target__number):hover:before {
-  -webkit-animation: 0.7s btn_hover ease;
-          animation: 0.7s btn_hover ease;
+  animation: 0.7s btn_hover ease;
   transform: translateX(0);
-}
-
-@-webkit-keyframes btn_hover {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
 
 @keyframes btn_hover {
@@ -983,14 +996,6 @@ a.contact:hover {
   }
   100% {
     transform: translateX(0);
-  }
-}
-@-webkit-keyframes btn__hover {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
   }
 }
 @keyframes btn__hover {
