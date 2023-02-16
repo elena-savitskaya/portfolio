@@ -14,6 +14,7 @@ import project13 from "../../img/projects/13.png";
 import project14 from "../../img/projects/14.png";
 import project15 from "../../img/projects/15.png";
 import project16 from "../../img/projects/16.png";
+import project17 from "../../img/projects/17.jpg";
 
 const projectList = [
     {
@@ -51,6 +52,12 @@ const projectList = [
         skills: 'ReactJS, JavaScript',
         img: project07,
         gitHubLink: 'https://elena-savitskaya.github.io/bank_app',
+    },
+    {
+        title: 'User list',
+        skills: 'ReactJS, JavaScript, Using the Fetch API',
+        img: project17,
+        gitHubLink: 'https://elena-savitskaya.github.io/user_list/',
     },
     {
         title: 'Slider',
