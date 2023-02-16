@@ -9,7 +9,7 @@ const Cert = () => {
         <div className="certificates">
             <div className="container">
                 <h2 className="certificates__title">My certificates</h2>
-                <Carousel className="certificates__list" autoPlay interval="5000" transitionTime="2000" infiniteLoop showThumbs={false}>
+                <Carousel className="certificates__list" autoPlay interval="8000" transitionTime="2000" infiniteLoop showThumbs={false}>
                     {certificatetList.map((certificate, index) => {
                         return (
                             <CertInfo

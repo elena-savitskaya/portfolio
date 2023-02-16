@@ -1,9 +1,12 @@
 import React from 'react';
 import "./_header.scss";
+import back from "../../img/backgroundes/background1.jpg";
 
 function Header() {
     return (
-        <header className="header">
+        <header className="header" style={{
+            backgroundImage: `url(${back})`,
+        }}>
             <div className="header__wrapper">
                 <h1 className="header__title">
                     <strong>Hi, my name is <em>Olena</em></strong>
