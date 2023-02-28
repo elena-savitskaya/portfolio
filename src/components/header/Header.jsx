@@ -15,7 +15,7 @@ function Header() {
                 <div className="header__text">
                     <p>with a desire for learning and creativity</p>
                 </div>
-                <a className="btn btn__hover" href="https://drive.google.com/file/d/1zHQIxV8Ll4wqe_asJt9jFm0kalPKeD62/view?usp=sharing">Download my CV</a>
+                <a className="btn btn__hover" href="https://drive.google.com/file/d/1yfrwUVn4x4f7li7HJ2Ub0BXp1M90pfeW/view?usp=sharing">Download my CV</a>
             </div>
         </header>
     )
