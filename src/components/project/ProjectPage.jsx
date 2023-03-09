@@ -14,18 +14,20 @@ const ProjectPage = () => {
                 <NavLink to="/portfolio/projects" className="button__back btn__hover"><FaArrowLeft></FaArrowLeft>Go back</NavLink>
                 <div className="project-details">
                     <h1 className="title-1">{project.title}</h1>
-                    <div className="project-details__cover">
-                        <img
-                            src={project.img}
-                            alt={project.title}
-                            className="project-details__img"
-                        />
-                    </div>
+                    <a href={project.gitHubLink}>
+                        <div className="project-details__cover">
+                            <img
+                                src={project.img}
+                                alt={project.title}
+                                className="project-details__img"
+                            />
+                        </div>
+                    </a>
                     <div className="project-details__desc">
                         <p>Skills: {project.skills}</p>
                     </div>
                     {project.gitHubLink && (
-                        <BtnGitHub link={project.gitHubLink} />
+                        <BtnGitHub link={project.repoLink} />
                     )}
                 </div>
             </div>
